@@ -1,9 +1,5 @@
 <?php
 require_once "data.php";
-
-$pageTitle = "{$siteTitle} - introduce";
-$pageDescription = "Who is David Baek?";
-
 require_once "head.php";
 ?>
 
@@ -13,10 +9,10 @@ require_once "head.php";
 <section class="section-title con-min-width">
   <h1 class="con">
     <span>
-      <i class="fas fa-fire"></i>
+      <i class="fas fa-list-ol"></i>
     </span>
     <span>
-      ABOUT
+      PORFOLIO
     </span>
   </h1>
 </section>

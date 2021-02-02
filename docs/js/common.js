@@ -17,9 +17,9 @@ function MobileTopBar__init() {
 MobileTopBar__init();
 
 
-/* Toast UI start */
+/* 토스트 UI 시작 */
 
-// Youtube plugin start
+// 유튜브 플러그인 시작
 function youtubePlugin() {
   toastui.Editor.codeBlockManager.setReplacer('youtube', youtubeId => {
     // Indentify multiple code blocks
@@ -37,9 +37,9 @@ function renderYoutube(wrapperId, youtubeId) {
 
   el.innerHTML = `<div class="toast-ui-youtube-plugin-wrap"><iframe src="https://www.youtube.com/embed/${youtubeId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`;
 }
-// Youtube plugin end
+// 유튜브 플러그인 끝
 
-// codepen plugin start
+// codepen 플러그인 시작
 function codepenPlugin() {
   toastui.Editor.codeBlockManager.setReplacer('codepen', url => {
     const wrapperId = `yt${Math.random().toString(36).substr(2, 10)}`;
@@ -59,7 +59,7 @@ function renderCodepen(wrapperId, url) {
 
   el.innerHTML = `<div class="toast-ui-codepen-plugin-wrap"><iframe height="${height}" scrolling="no" src="${url}" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe></div>`;
 }
-// codepen plugin end
+// codepen 플러그인 끝
 
 function Editor__init() {
   $('.toast-ui-editor').each(function (index, node) {
@@ -95,4 +95,4 @@ $(function () {
   EditorViewer__init();
 });
 
-/* Toast UI end */
+/* 토스트 UI 끝 */

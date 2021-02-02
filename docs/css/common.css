@@ -1,4 +1,4 @@
-/* font application start */
+/* 폰트 적용 시작 */
 @font-face {
   font-family: 'LotteMartDream';
   font-style: normal;
@@ -24,9 +24,9 @@ html {
   font-family: 'LotteMartDream', sans-serif;
 }
 
-/* font application end */
+/* 폰트 적용 끝 */
 
-/* normalize start */
+/* 노말라이즈 시작 */
 body,
 ul,
 li {
@@ -40,9 +40,9 @@ a {
   text-decoration: none;
 }
 
-/* normalize end */
+/* 노말라이즈 끝 */
 
-/* library start */
+/* 라이브러리 시작 */
 .padding-0-10 {
   padding: 0 10px;
 }
@@ -68,12 +68,12 @@ a {
   align-self: center;
 }
 
-/* felx grow */
+/* 성장성 부여 */
 .flex-grow-1 {
   flex-grow: 1;
 }
 
-/* felx grow */
+/* 성장성 부여 */
 .flex-1-0-0 {
   flex: 1 0 0;
 }
@@ -136,9 +136,9 @@ a {
   }
 }
 
-/* library end */
+/* 라이브러리 끝 */
 
-/* custom start */
+/* 커스텀 시작 */
 :root {
   --site-width: 1200px;
 }
@@ -147,7 +147,7 @@ a {
   max-width: var(--site-width);
 }
 
-/* body content start */
+/* 바디 콘텐트 시작 */
 .body-content {
   display: flex;
   flex-direction: column;
@@ -158,16 +158,16 @@ a {
   flex-grow: 1;
 }
 
-/* body content end */
+/* 바디 콘텐트 끝 */
 
-/* section title start */
+/* 섹션 타이틀 시작 */
 .section-title {
   padding: 0 10px;
 }
 
-/* section title end */
+/* 섹션 타이틀 끝 */
 
-/* Logo start */
+/* 로고 시작 */
 .logo {
   display: flex;
   align-items: center;
@@ -181,9 +181,9 @@ a {
   font-style: italic;
 }
 
-/* Logo end */
+/* 로고 끝 */
 
-/* Top bar start */
+/* 탑바 시작 */
 .top-bar {
   background-color: black;
   color: white;
@@ -212,9 +212,9 @@ a {
   margin-right: 3px;
 }
 
-/* Top bar end */
+/* 탑바 끝 */
 
-/* Mobile Top bar start */
+/* 모바일 탑바 시작 */
 :root {
   --mobile-top-bar__height: 70px;
 }
@@ -279,9 +279,9 @@ a {
   opacity: 0;
 }
 
-/* Mobile Top bar end */
+/* 모바일 탑바 끝 */
 
-/* Mobile side bar start */
+/* 모바일 사이드바 시작 */
 .mobile-side-bar {
   position: fixed;
   top: var(--mobile-top-bar__height);
@@ -316,9 +316,9 @@ a {
   color: black;
 }
 
-/* Mobile side bar end */
+/* 모바일 사이드바 끝 */
 
-/* bottom bar start */
+/* 하단바 시작 */
 .bottom-bar {
   margin-top:30px;
   background-color: black;
@@ -330,9 +330,9 @@ a {
   padding-bottom: 10px;
 }
 
-/* bottom bar end */
+/* 하단바 끝 */
 
-/* article list box start */
+/* 게시물 리스트 박스 시작 */
 .article-list-box {
   margin-left: 10px;
   margin-right: 10px;
@@ -357,7 +357,7 @@ a {
 }
 
 .article-list-box__reg-date::before {
-  content: "written : ";
+  content: "작성 : ";
 }
 
 .article-list-box__writer {
@@ -375,9 +375,9 @@ a {
   margin-left: 10px;
 }
 
-/* article list box end */
+/* 게시물 리스트 박스 끝 */
 
-/* Toast UI editor start */
+/* 토스트 UI 에디터 시작 */
 .toast-ui-youtube-plugin-wrap {
   max-width: 500px;
   margin-left: auto;
@@ -403,16 +403,16 @@ a {
   width: 100%;
 }
 
-/* delete background colors */
+/* 기존의 코드 블록에 걸려있는 여백과 배경색 제거 */
 .toast-ui-viewer .tui-editor-contents pre {
   margin: 0;
   padding: 0;
   background-color: transparent;
 }
 
-/* Toast UI editor end */
+/* 토스트 UI 에디터 끝 */
 
-/* svgs start */
+/* svgs 시작 */
 .svgs {
   width: 0;
   height: 0;
@@ -423,15 +423,15 @@ a {
   display: block;
 }
 
-/* svgs end */
+/* svgs 끝 */
 
-/* article reply box start */
+/* 게시물 댓글 박스 시작 */
 .section-article-reply-box {
   margin-top:20px;
 }
-/* article reply box end */
+/* 게시물 댓글 박스 끝 */
 
-/* article list start */
+/* 게시물 리스트 시작 */
 .article-list > ul > li {
   margin:50px 0;
 }
@@ -440,4 +440,4 @@ a {
   color:#337ab7;
 }
 
-/* custom end */
+/* 커스텀 끝 */
